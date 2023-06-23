@@ -1,0 +1,127 @@
+@charset "UTF-8"; 
+@font-face {
+    font-family:'idroid' ;
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0px;
+    background-color: #7BD5A3;
+}
+
+a{
+    color: #2C4D3B;
+    font-weight: bolder;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration-line: none;
+}
+
+a:hover{
+    color: #39CD7B;
+}
+
+
+header{
+    background-image: linear-gradient(to bottom, #7BD5A3,#39CD7B,#2C4D3B);
+    margin: 0%;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 9px 9px 0px rgba(0, 0, 0, 0.363);
+}
+
+h1{
+    
+}
+
+nav{
+    padding: 5px;
+    text-align: left;
+    margin: 0px;
+}
+
+nav > a{
+    font-weight: bold;
+    color: white;
+    font-size: 13px;
+    padding: 3px 8px 5px 3px;
+    margin: 3px 10px 3px 3px;
+    font-style: normal;
+    text-decoration: none;
+    
+}
+
+nav > a:hover{
+    background-color: rgba(183, 243, 223, 0.459);
+    text-decoration: underline;
+    color: white;
+    text-decoration: none;
+
+}
+main > #video1{
+    background-color: #2C4D3B;
+    margin: 0px -20px;
+    padding: 20px 100px;
+}
+
+main{
+    background-color: white;
+    text-align: justify;
+    padding: 20px;
+    margin: 0px 200px 10px 200px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.301);
+
+}
+
+main > h1{
+    font-family: 'idroid',Arial, Helvetica, sans-serif;
+    color: #2C4D3B;
+}
+
+main > h2{
+    background-image: linear-gradient(to right, #39CD7B,#7BD5A3,white );
+    font-family: 'idroid',Arial, Helvetica, sans-serif;
+    color: #2C4D3B;
+}
+
+main > #bugdroid{
+    text-align: center;
+}
+
+main > #lista{
+    background-color: #b0f0cd;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0px 10px 10px 10px;
+    margin: 10px 0px 0px 0px;
+}
+
+main > #lista > #pergunta{
+    background-color: #39CD7B;
+    padding: 10px 10px 10px 10px;
+    margin: 0px -10px 0px -10px;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    font-weight: bold;
+}
+
+main > ul > #listabaixo{
+    text-align: end;
+}
+
+
+footer{
+    background-color: #2C4D3B;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0;
+}
+
+footer > p{
+    margin: 0px;
+}
